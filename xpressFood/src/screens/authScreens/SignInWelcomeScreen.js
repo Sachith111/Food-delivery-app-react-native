@@ -62,7 +62,7 @@ export const SignInWelcomeScreen = ({navigation}) => {
         </Swiper>
       </View>
 
-      <View style={{flex: 4, justifyContent: 'flex-end', marginBottom: 20}}>
+      <View style={{flex: 5, justifyContent: 'flex-end', marginBottom: 20}}>
         <View style={{marginHorizontal: 20, marginTop: 30}}>
           <Button
             title={'SIGN IN'}
@@ -116,7 +116,7 @@ const styles = StyleSheet.create({
     borderColor: colors.buttons,
   },
   createButtonTitle: {
-    color: colors.gray2,
+    color: colors.grey2,
     fontSize: 20,
     fontWeight: 'bold',
     alignItems: 'center',

@@ -59,7 +59,7 @@ export const SignInScreen = ({navigation}) => {
             <Icon
               name="visibility-off"
               style={{marginRight: 10}}
-              iconStyle={{color: colors.gray3}}
+              iconStyle={{color: colors.grey3}}
               type="meterial"
             />
           </Animatable.View>
@@ -122,7 +122,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   text1: {
-    color: colors.gray4,
+    color: colors.grey4,
     fontSize: 16,
   },
   TextInput1: {
